@@ -1,3 +1,45 @@
-header {
-    
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.title-line {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+
+
+}
+
+.title-line li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+
+}
+
+.nav-list li:hover {
+    color: aqua;
+}
+
+.nav-list li:active {
+    background-color: red;
+
 }
