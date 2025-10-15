@@ -43,3 +43,7 @@ main {
     background-color: red;
 
 }
+
+footer {
+    display: flex;
+}
