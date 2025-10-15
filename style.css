@@ -47,3 +47,51 @@ main {
 footer {
     display: flex;
 }
+.footer {
+    max-width: 1024px;
+    margin: 0;
+    padding: 20px;
+    justify-content: end;  
+}
+
+/* phone styles */
+
+
+@media (max-width: 480px) {
+    .title-line {
+        padding: 10px;
+    }
+
+    .title-line h1 {
+        font-size: 1.3rem;
+    }
+
+    .title-line ul {
+        margin-top: 10px;
+    }
+
+    .title-line li {
+        margin: 5px;
+        font-size: 0.85rem;
+    }
+
+    .nav-bar {
+        padding: 5px 0;
+    }
+
+    .nav-list li {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 15px;
+        text-align: center;
+    }
+}
