@@ -286,6 +286,13 @@ main {
         align-items: center;
     }
 }
+.info-box h2::before {
+  content: "🌿 ";
+}
+
+button:disabled {
+    opacity: 0.5;
+}
 /* phone styles */
 
 
