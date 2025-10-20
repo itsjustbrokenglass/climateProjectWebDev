@@ -476,7 +476,7 @@ button {
     }
 }
 
-/* small devices */
+/* small devices */ 
 @media (max-width: 480px) {
     .nav-bar {
         margin-inline-start: 12px;
