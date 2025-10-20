@@ -466,7 +466,7 @@ button:disabled {
 }
 
 
-/* Mobile screens under 600px */
+/* small devices */
 @media (max-width: 600px) {
     .sticky-nav {
         height: auto;
@@ -575,7 +575,7 @@ button:disabled {
     }
 }
 
-/* small devices */
+/* smaller devices */
 @media (max-width: 480px) {
     .nav-bar {
         margin-inline-start: 12px;
