@@ -416,13 +416,6 @@ main {
     }
 }
 
-.info-box h2::before {
-    content: "🌿 ";
-}
-
-button:disabled {
-    opacity: 0.5;
-}
 
 /* phone styles */
 
@@ -648,4 +641,36 @@ button:disabled {
     .info-box ol li {
         font-size: 0.85rem;
     }
+}
+/* extra pseudo classes/elements */
+.info-box h2::before {
+  content: "🌿 ";
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.footer-list li:nth-child(odd) {
+    background-color: #dddcdc;
+}
+
+button:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.learn-more h2::after {
+    content: " 🌳";
+    font-size: 1.2em;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    color: #e3802a;
 }
